@@ -4,7 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/alta.css" rel="stylesheet">
     </head>
     <body>
         <?php
@@ -69,21 +69,21 @@
                 }
                 if (isset($_POST["potencia"])) {
                     if (empty($_POST["potencia"])) {
-                        $potencia = 0;
+                        $potencia = 126;
                     } else {
                         $potencia = test_input($_POST["potencia"]);
                     }
                 } else {
-                    $potencia = 0;
+                    $potencia = 126;
                 }
                 if (isset($_POST["velocidad"])) {
                     if (empty($_POST["velocidad"])) {
-                        $velocidad = 0;
+                        $velocidad = 130;
                     } else {
                         $velocidad = test_input($_POST["velocidad"]);
                     }
                 } else {
-                    $velocidad = 0;
+                    $velocidad = 130;
                 }
                 if (isset($_FILES['foto'])) {
                     $archivo = $_FILES['foto'];

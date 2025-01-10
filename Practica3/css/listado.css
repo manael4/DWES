@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin: 20px 0;
+}
+
+.listado-coches {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.listado-coches li {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listado-coches li strong {
+    color: #4a90e2;
+}
+
+.listado-coches img {
+    display: block;
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .listado-coches {
+        padding: 0 15px;
+    }
+
+    .listado-coches li {
+        padding: 15px;
+    }
+}
